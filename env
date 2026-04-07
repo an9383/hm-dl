@@ -34,3 +34,6 @@ WSL: New Window
 # pip 강제 재설치
 wget https://bootstrap.pypa.io/get-pip.py -O get-pip.py
 python3 get-pip.py
+
+"transformers>=4.41,<5" "tokenizers>=0.19,<0.21" "huggingface-hub>=0.20"
+"sentence-transformers>=5.3,<6"
