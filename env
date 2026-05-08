@@ -1,0 +1,36 @@
+pip install ipykernel
+python -m ipykernel install --user --name hm-dl --display-name "Python (WSL hm-dl)"
+
+[Environment]::GetEnvironmentVariable("PATH","Machine")
+
+======keras3==============
+numpy==1.26.4
+tensorflow==2.16.2
+tensorflow-hub
+keras>=3
+keras-nlp>=0.6
+
+===========keras2==========
+tensorflow==2.10.0
+tensorflow-text==2.10.0
+tensorflow-hub==0.15.0
+keras==2.10.0
+keras-nlp==0.3.1
+numpy==1.21.6
+packaging==24.0
+werkzeug<3
+
+wsl --install -d Ubuntu-22.04
+
+wsl
+python3.10 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+pip install "tensorflow==2.15.*" "tensorflow-text==2.15.*" keras-nlp
+
+
+WSL: New Window
+
+# pip 강제 재설치
+wget https://bootstrap.pypa.io/get-pip.py -O get-pip.py
+python3 get-pip.py
