@@ -24,6 +24,7 @@ wsl --install -d Ubuntu-22.04
 
 wsl
 python3.10 -m venv .venv
+py -3.10 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 pip install "tensorflow==2.15.*" "tensorflow-text==2.15.*" keras-nlp

@@ -26,12 +26,12 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-.venv
-.vscode
-images
-Kimizi_Pistachio
-my_bert_model
-aclImdb
+.venv/
+.vscode/
+images/
+Kimizi_Pistachio/
+my_bert_model/
+aclImdb/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
